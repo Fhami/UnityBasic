@@ -56,6 +56,20 @@ namespace Khami.Utilities
             _newScale.x = _value;
             _transform.localScale = _newScale;
         }
+        
+        public static void SetScaleY(this Transform _transform, float _value)
+        {
+            var _newScale = _transform.localScale;
+            _newScale.y = _value;
+            _transform.localScale = _newScale;
+        }
+        
+        public static void SetScaleZ(this Transform _transform, float _value)
+        {
+            var _newScale = _transform.localScale;
+            _newScale.y = _value;
+            _transform.localScale = _newScale;
+        }
 
         public static bool IsDeepChildOf(this Transform _obj, Transform _parent)
         {
